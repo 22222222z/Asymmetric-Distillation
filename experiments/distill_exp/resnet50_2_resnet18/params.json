@@ -1,0 +1,21 @@
+{
+    "model_version": "resnet18_distill",
+    "subset_percent": 1.0,
+    "augmentation": "yes",
+    "teacher": "resnet50",
+    "alpha": 1.0,
+    "temperature": 6,
+    "learning_rate": 1e-1,
+    "batch_size": 128,
+    "num_epochs": 200,
+    "num_channels": 32,
+    "save_summary_steps": 100,
+    "num_workers": 4,
+    "dataset":"tiny_imagenet",
+    "feat_dim": 128,
+    "multiplier": 10,
+    "feat_loss":0,
+    "beta":1.0,
+    "gamma":1.0,
+    "logits_loss":0
+}

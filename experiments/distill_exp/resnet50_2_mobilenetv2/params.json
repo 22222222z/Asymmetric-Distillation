@@ -1,0 +1,21 @@
+{
+    "model_version": "mobilenet_v2_distill",
+    "subset_percent": 1.0,
+    "augmentation": "yes",
+    "teacher": "resnet50",
+    "alpha": 0.95,
+    "temperature": 20,
+    "learning_rate": 0.1,
+    "batch_size": 32,
+    "num_epochs": 200,
+    "dropout_rate": 0.5,
+    "save_summary_steps": 100,
+    "num_workers": 4,
+    "anchor_num": 10,
+    "dataset": "tiny_imagenet",
+    "feat_loss":0,
+    "beta":1.0,
+    "gamma":1.0,
+    "logits_loss":0
+}
+
