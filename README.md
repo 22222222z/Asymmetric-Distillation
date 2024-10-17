@@ -1,6 +1,7 @@
 # Asymmetric-Distillation
-The offical implementation of IJCAI 2024 paper "Revealing the Two Sides of Data Augmentation:  An Asymmetric Distillation-based Win-Win Solution for Open-Set Recognition".
-[arxiv](https://arxiv.org/abs/2404.19527)[IJCAI](https://www.ijcai.org/proceedings/2024/0101.pdf)
+The offical implementation of IJCAI 2024 paper "[Revealing the Two Sides of Data Augmentation:  An Asymmetric Distillation-based Win-Win Solution for Open-Set Recognition](https://www.ijcai.org/proceedings/2024/0101.pdf)".
+
+<a href='https://arxiv.org/abs/2404.19527'><img src='https://img.shields.io/badge/ArXiv-2404.19527-red'></a> 
 
 ## 🍻 Citation
 If you find this project useful for your research, please use the following BibTeX entry.
